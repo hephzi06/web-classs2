@@ -1,0 +1,273 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* text-align: justify; */
+}
+.read{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.read:hover{
+    border: 1px dotted #55e2e4;
+    background-color: white;
+    color: #55e2e4;
+}
+section{
+    margin-top: 4em !important;
+}
+.banner-image{
+    background-image: url('../images/bg01.jpg');
+    background-size: cover;
+}
+.dropdown-menu{
+    background-color: teal !important;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+}
+.links{
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 1em;
+}
+.box1{
+   height: 400px;
+   width: 100%;
+   background-color: teal;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0 20px;
+}
+.box1 >p{
+    text-align: center;
+}
+.about-img{
+    border-radius: 20px;
+    width: 100%;
+    /* height: 400px; */
+    overflow: hidden;
+}
+.second{
+    background-image: url('../images/snip.png');
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+.card-text{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    word-spacing: 3px;
+    text-align: justify;
+}
+.card-body{
+    background-color: teal;
+}
+i{
+    color: #fff;
+}
+footer{
+    width: auto;
+    height: fit-content;
+    background: teal;
+    padding: 20px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+footer a{
+    margin-left: 30%;
+}
+footer i{
+    margin-left: 45%;
+}
+.phone{
+    display: block;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+footer h6{
+    color: white;
+    text-align: left;
+}
+.heading{
+    text-align: center;
+    color: #fff;
+    background-color: teal;
+    padding: 10px;
+    width: 25%;
+    margin-left: 35%;
+    margin-bottom: 70px;
+}
+.heading-p{
+    text-align: center;
+    margin: 3em auto;
+    font-size: 1.5em;
+}
+.modal-content{
+    background-color: teal;
+}
+small{
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+/* small screen custom styling */
+@media (max-width: 576px) {
+    .banner-image{
+        background-image: url('../images/bg01.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .box1, .about-img{
+        border-radius: 0px;
+    }
+    .box1{
+        margin-top: 15px;
+    }
+    .blog{
+        margin: 30px auto auto;
+    }
+    .read{
+        text-align: center;
+        text-decoration: none;
+    }
+    footer{
+        padding: 10px;
+    }
+    .heading{
+        width: 80%;
+        margin: auto;
+    }
+    .heading-p{
+        text-align: center;
+        margin: 3em;
+        font-size: 1em;
+    }
+    .space-btw{
+        margin-top: 3em;
+    }
+   .container{
+       box-shadow: black ;   
+    }
+
+   
+}
+
+/* Drugs Details */
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.hero{
+   padding: 100px 0;
+}
+.text{
+  margin: 0px 0px;
+  font-weight: normal;    
+}
+.asty{
+  text-align: center;
+  color: black;
+  font-size: bold;
+  /* font-weight: ; */
+  margin-top: 10px;
+}
+#btn{
+  margin: 40px 2px;
+  /* border: 1px solid blue;  */
+  border-radius: 20px; 
+  color: white;
+  background-color: teal; 
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+a{
+  color: black;
+  text-decoration: none !important;
+  font-weight: bold;
+  
+}
+#btn:hover{
+  color: #fff;
+}
+
+
+.img{
+
+  margin-right: 30px; 
+}
+
+/* IN HTML PAGE */
+
+.showcase-in{
+  padding: 100px 0;
+}
+.img{
+margin-right: 30px;
+}
+
+
+/* medium screen custom styling */
+@media (min-width: 577px) and (max-width: 1199px) {
+    
+    .box1, .about-img{
+        border-radius: 0px;
+    }
+    
+}
+/* custom stryling for ipads and the rest */
+@media (min-width: 768px) {
+    .about-img{
+        width: 100%;
+        height: 450px;
+        border-radius: 20px;
+        position: relative;
+        left: 45px;
+    }
+    .box1{   
+        position: relative;
+        top: 70px;
+        right: 45px;
+        border-radius: 20px;
+    }
+    
+}
+
+/* large screen custom styling */
+@media (min-width: 1200px) {
+    .about-img{
+        width: 80%;
+        height: 500px;
+        position: relative;
+        left: 150px;
+    }
+   .box1{   
+    position: relative;
+    top: 70px;
+    right: 80px;
+    border-radius: 20px;
+    width: 80%;
+    height: 500px;
+   }
+   section{
+       margin-top: 8em !important ;
+   }
+   
+}
+/* smallest screen custom styling */
+@media (max-width: 411px) {
+    /* .products{
+        padding-left: 50px;
+        align-self: center;     
+       }  */
+}
